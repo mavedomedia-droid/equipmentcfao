@@ -45,7 +45,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .brand img { height:34px; display:block; }
     .nav-links { display:flex; align-items:center; gap:28px; list-style:none; }
     .nav-links a { font-size:14px; font-weight:500; color:var(--muted); text-decoration:none; transition:color .2s; }
-    .nav-links a:hover { color:var(--red); } /* red hover */
+    .nav-links a:hover { color:var(--red); }
     .nav-cta { background:var(--red); color:#fff; border:none; padding:9px 20px;
         border-radius:9px; font:500 14px 'Inter',sans-serif; cursor:pointer;
         text-decoration:none; display:inline-block; transition:background .2s; }
@@ -200,7 +200,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .section-sm { padding:52px 48px; max-width:1160px; margin:0 auto; }
     .eyebrow { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:var(--red); margin-bottom:10px; }
     .s-title { font-size:28px; font-weight:800; color:var(--text); margin-bottom:12px; line-height:1.2; letter-spacing:-0.01em; position: relative; }
-    .s-title::after { content:''; display:block; width:60px; height:3px; background:var(--red); margin-top:10px; } /* red underline */
+    .s-title::after { content:''; display:block; width:60px; height:3px; background:var(--red); margin-top:10px; }
     .s-sub { font-size:16px; color:var(--muted); line-height:1.7; max-width:600px; }
     .offer-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:32px; }
     @media(max-width:768px){ .offer-grid { grid-template-columns:repeat(2,1fr); } }
@@ -208,7 +208,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     .offer-card { background:var(--white); border:1px solid var(--border); border-radius:16px;
         padding:28px 24px; text-align:center; transition:all .2s; }
     .offer-card:hover { border-color:var(--red); box-shadow:var(--shadow-md); transform:translateY(-2px); }
-    .offer-card:hover h3 { color: var(--red); } /* red title on hover */
+    .offer-card:hover h3 { color: var(--red); }
     .offer-icon { width:56px; height:56px; border-radius:14px; background:rgba(230,34,68,0.05);
         display:flex; align-items:center; justify-content:center; margin:0 auto 14px; }
     .offer-icon svg { stroke:var(--red); stroke-width:1.5; }
@@ -261,8 +261,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         .hero-left .hero-trust { justify-content:center; }
         .quiz-card { order:2; justify-self:center; max-width:100%; }
         .hero-badge { margin-bottom:12px; font-size:10.5px; padding:3px 9px; }
-        .hero-title { font-size:30px; margin-bottom:10px; } /* increased from 26px */
-        .hero-title .line-small { font-size:0.65em; } /* smaller line still larger than sub */
+        .hero-title { font-size:30px; margin-bottom:10px; }
+        .hero-title .line-small { font-size:0.65em; }
         .hero-sub { font-size:15px; margin-bottom:18px; }
         .hero-trust { gap:6px 10px; }
         .hero-trust span { font-size:11px; }
@@ -274,8 +274,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     }
     @media(max-width:480px){
         .nav-cta { display:none; }
-        .hero-title { font-size:28px; } /* increased from 24px */
-        .car-grid { grid-template-columns:1fr 1fr; } /* keep 2 columns on small */
+        .hero-title { font-size:28px; }
+        .car-grid { grid-template-columns:1fr 1fr; }
         .brands-grid { grid-template-columns:repeat(2,1fr); }
         .stats-row { grid-template-columns:1fr; }
     }
@@ -313,8 +313,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         <div class="hero-left">
             <div class="hero-badge"><b></b> Official Distributor · Fuso · King Long · Sino · TMH · Techking</div>
             <h1 class="hero-title">
-                <span class="line-big">Make enquiries on heavy‑duty equipment</span>
-                <span class="line-small">with the trusted <span class="red">CFAO</span> team</span>
+                <span class="line-big">Heavy duty equipment enquiry</span>
+                <span class="line-small">with the trusted <span class="red">Equipment by CFAO</span> team</span>
             </h1>
             <p class="hero-sub">From trucks and buses to forklifts and tyres — one enquiry puts you in touch with the right specialist for your business.</p>
             <div class="hero-trust">
@@ -578,10 +578,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div>
 </footer>
 
+<script src="/config.js"></script>
 <script>
-   <script src="/config.js"></script>
     window.dataLayer = window.dataLayer || [];
-    var THANKYOU_URL = '/thank-you/enquiry';
 
     var utmParams = {};
     (function(){
@@ -838,7 +837,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         goTo('redirecting');
         window.dataLayer.push({ event:'form_submit', productLine: vals.productLine, role: vals.role, sector: vals.sector, nature: vals.nature, email: email });
 
-        var redirectUrl = THANKYOU_URL + '?product=' + encodeURIComponent(vals.productLine || 'general') + '&firstName=' + encodeURIComponent(fname);
+        var redirectUrl = '/thank-you/enquiry?product=' + encodeURIComponent(vals.productLine || 'general') + '&firstName=' + encodeURIComponent(fname);
         function go(){ if(submitFinished) return; submitFinished = true; window.location.href = redirectUrl; }
         var failsafe = setTimeout(go, 8000);
 
