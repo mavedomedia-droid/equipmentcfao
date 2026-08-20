@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Google Tag Manager (Replace GTM-EQUIPMENTCFAO with actual Equipment by CFAO GTM ID) -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-EQUIPMENTCFAO');</script>
+<!-- End Google Tag Manager -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Make an Enquiry – Equipment by CFAO Nigeria</title>
+
+<!-- Favicon -->
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#1A1A1A">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+<style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+        --red:#E62244; --red-dark:#C41D38;
+        --ink:#1A1A1A;
+        --surface-dark:#242528;
+        --text:#16171A; --muted:#5B6470;
+        --white:#ffffff; --bg-light:#F5F6F8; --border:#E4E4E7;
+        --shadow-md:0 10px 30px rgba(0,0,0,0.10);
+        --shadow-card:0 18px 50px rgba(0,0,0,0.35);
+    }
+    html { scroll-behavior:smooth; font-size:16px; }
+    body { font-family:'Inter',sans-serif; background:var(--white); color:var(--text);
+        line-height:1.6; -webkit-font-smoothing:antialiased; overflow-x:hidden;
+        padding-top: env(safe-area-inset-top); }
+
+    /* NAV */
+    nav { display:flex; align-items:center; justify-content:space-between;
+        padding:0 48px; height:66px; background:rgba(255,255,255,0.96);
+        backdrop-filter:blur(12px); border-bottom:1px solid var(--border);
+        position:sticky; top:0; z-index:100; }
+    .brand { display:flex; align-items:center; gap:12px; text-decoration:none; }
+    .brand img { height:34px; display:block; }
+    .nav-links { display:flex; align-items:center; gap:28px; list-style:none; }
+    .nav-links a { font-size:14px; font-weight:500; color:var(--muted); text-decoration:none; transition:color .2s; }
+    .nav-links a:hover { color:var(--text); }
+    .nav-cta { background:var(--red); color:#fff; border:none; padding:9px 20px;
+        border-radius:9px; font:500 14px 'Inter',sans-serif; cursor:pointer;
+        text-decoration:none; display:inline-block; transition:background .2s; }
+    .nav-cta:hover { background:var(--red-dark); }
+    .hamburger { display:none; flex-direction:column; gap:5px; cursor:pointer; background:none; border:none; padding:4px; }
+    .hamburger span { display:block; width:22px; height:2px; background:var(--text); border-radius:2px; }
+    .mobile-menu { display:none; flex-direction:column; background:var(--white);
+        border-bottom:1px solid var(--border); padding:14px 20px 18px; gap:4px; }
+    .mobile-menu.open { display:flex; }
+    .mobile-menu a { font-size:15px; color:var(--muted); text-decoration:none; padding:9px 0; border-bottom:1px solid var(--border); }
+    .mobile-menu a:last-child { border-bottom:none; }
+    .mobile-menu .mob-cta { margin-top:8px; background:var(--red); color:#fff; padding:12px 20px; border-radius:9px; text-align:center; font-weight:600; border-bottom:none; }
+
+    /* HERO */
+    .hero-wrap { position:relative; background:var(--ink); overflow:hidden;
+        padding:76px 24px 0; border-bottom:1px solid #2A2B2E; min-height:620px; }
+    .hero-bg { position:absolute; inset:0; z-index:0; pointer-events:none;
+        background: radial-gradient(600px 400px at 80% 20%, rgba(230,34,68,0.15) 0%, transparent 70%),
+                    radial-gradient(500px 300px at 20% 80%, rgba(230,34,68,0.08) 0%, transparent 70%),
+                    linear-gradient(135deg, rgba(255,255,255,0.03) 25%, transparent 25%, transparent 50%, rgba(255,255,255,0.03) 50%, rgba(255,255,255,0.03) 75%, transparent 75%, transparent);
+        background-size: cover; }
+    .hero-inner { position:relative; z-index:2; max-width:1160px; margin:0 auto;
+        display:grid; grid-template-columns:1fr 1fr; gap:48px; align-items:center; padding-bottom:76px; }
+    .hero-left { color:#fff; max-width:520px; }
+    .hero-badge { display:inline-flex; align-items:center; gap:7px;
+        background:rgba(230,34,68,0.15); color:#ff8a9e; font-size:12px; font-weight:600;
+        letter-spacing:0.4px; padding:5px 13px; border-radius:100px; margin-bottom:20px; }
+    .hero-badge b { width:6px; height:6px; border-radius:50%; background:var(--red); display:inline-block; }
+    .hero-title { font-size:clamp(36px,5vw,56px); font-weight:800; line-height:1.06;
+        color:#fff; margin-bottom:16px; letter-spacing:-0.025em; }
+    .hero-sub { font-size:16px; color:rgba(255,255,255,0.7); line-height:1.6; margin-bottom:28px; }
+    .hero-trust { display:flex; flex-wrap:wrap; gap:14px 20px; }
+    .hero-trust span { display:inline-flex; align-items:center; gap:7px;
+        font-size:13px; font-weight:500; color:rgba(255,255,255,0.72); white-space:nowrap; }
+    .hero-trust svg { flex-shrink:0; stroke:var(--red); }
+
+    /* QUIZ CARD */
+    .quiz-card { background:var(--white); border-radius:18px; box-shadow:var(--shadow-card);
+        padding:32px 28px; max-width:440px; justify-self:end; width:100%;
+        position:relative; overflow:hidden; }
+    .quiz-card::after { content:''; position:absolute; bottom:-60px; right:-60px;
+        width:200px; height:200px; background:radial-gradient(circle at center, rgba(230,34,68,0.06) 0%, transparent 70%);
+        border-radius:50%; opacity:0; transition:opacity 0.4s; pointer-events:none; }
+    .quiz-card.step-active::after { opacity:1; }
+    .quiz-progress { display:flex; align-items:center; gap:12px; margin-bottom:20px; }
+    .quiz-progress-bar { flex:1; height:4px; background:#E4E4E7; border-radius:2px; overflow:hidden; }
+    .quiz-progress-fill { height:100%; background:var(--red); border-radius:2px; width:0%; transition:width .4s ease; }
+    .quiz-progress-label { font-size:12px; color:var(--muted); white-space:nowrap; }
+    .quiz-step { display:none; }
+    .quiz-step.active { display:block; animation:fadeIn .25s ease; }
+    @keyframes fadeIn { from{opacity:0;transform:translateY(6px)} to{opacity:1;transform:translateY(0)} }
+
+    .step-title { font-size:20px; font-weight:700; color:var(--text); line-height:1.35; margin-bottom:6px; }
+    .step-sub { font-size:13.5px; color:var(--muted); margin-bottom:20px; line-height:1.5; }
+
+    /* PRODUCT TILES */
+    .car-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+    .car-opt { border:1.5px solid var(--border); border-radius:14px; padding:14px 10px 12px; background:#FAFAFB;
+        cursor:pointer; text-align:center; transition:.15s; display:flex; flex-direction:column; align-items:center; gap:7px;
+        position:relative; font-family:'Inter',sans-serif; width:100%; }
+    .car-opt:hover { border-color:var(--red); background:rgba(230,34,68,0.02); }
+    .car-opt.selected { border-color:var(--red); background:rgba(230,34,68,0.03); box-shadow:inset 0 0 0 1px rgba(230,34,68,0.12); }
+    .car-icon { width:44px; height:44px; display:flex; align-items:center; justify-content:center; }
+    .car-icon svg { width:40px; height:40px; stroke:#2b2d33; fill:none; stroke-width:1.7; stroke-linecap:round; stroke-linejoin:round; transition:stroke .15s; }
+    .car-opt:hover .car-icon svg, .car-opt.selected .car-icon svg { stroke:var(--red); }
+    .car-cat { font-size:13.5px; font-weight:700; color:var(--text); line-height:1.1; }
+    .car-models { font-size:11px; color:var(--muted); line-height:1.3; }
+    .car-check { position:absolute; top:9px; right:9px; width:18px; height:18px; border-radius:50%; border:2px solid var(--red);
+        display:flex; align-items:center; justify-content:center; opacity:0; transform:scale(.8); transition:.15s; }
+    .car-check::after { content:''; width:7px; height:7px; border-radius:50%; background:var(--red); }
+    .car-opt.selected .car-check { opacity:1; transform:scale(1); }
+    .soft-link { display:block; text-align:center; margin-top:12px; font-size:12px; color:var(--muted); text-decoration:underline; cursor:pointer; background:none; border:none; }
+
+    /* OPTION LIST */
+    .opts { display:flex; flex-direction:column; gap:10px; }
+    .opts.g2 { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+    .opt { border:1.5px solid var(--border); border-radius:12px; padding:14px 16px;
+        cursor:pointer; background:#FAFAFB; text-align:left; font:500 14px 'Inter',sans-serif;
+        color:var(--text); transition:all .15s; width:100%; display:flex; align-items:center; gap:12px; }
+    .opt:hover { border-color:var(--red); background:rgba(230,34,68,0.02); }
+    .opt.selected { border-color:var(--red); background:rgba(230,34,68,0.03); box-shadow:inset 0 0 0 1px rgba(230,34,68,0.1); }
+    .opt.selected .opt-check { opacity:1; transform:scale(1); }
+    .opt-icon { width:36px; height:36px; border-radius:10px; background:#F0F0F2;
+        display:flex; align-items:center; justify-content:center; flex-shrink:0; transition:background .15s; }
+    .opt.selected .opt-icon { background:rgba(230,34,68,0.1); }
+    .opt-icon svg { stroke:var(--text); stroke-width:1.8; }
+    .opt.selected .opt-icon svg { stroke:var(--red); }
+    .opt-text { flex:1; }
+    .opt-title { font-size:14px; font-weight:600; }
+    .opt-sub { font-size:12px; color:var(--muted); margin-top:2px; }
+    .opt-check { width:20px; height:20px; border-radius:50%; border:2px solid var(--red);
+        display:flex; align-items:center; justify-content:center; opacity:0; transform:scale(0.8);
+        transition:opacity .15s, transform .15s; flex-shrink:0; }
+    .opt-check::after { content:''; width:8px; height:8px; border-radius:50%; background:var(--red); }
+
+    /* FORM */
+    .qinput-group { margin-bottom:14px; text-align:left; }
+    .qinput-group label { display:block; font-size:12px; font-weight:600; color:var(--text); margin-bottom:5px; }
+    .qinput-group input, .qinput-group select, .qinput-group textarea { width:100%; padding:11px 13px; border:1.5px solid var(--border);
+        border-radius:9px; font:400 16px 'Inter',sans-serif; color:var(--text); background:var(--white);
+        outline:none; transition:border-color .2s, box-shadow .2s; }
+    .qinput-group textarea { resize:vertical; min-height:80px; }
+    .qinput-group input:focus, .qinput-group select:focus, .qinput-group textarea:focus { border-color:var(--red); box-shadow:0 0 0 3px rgba(230,34,68,.08); }
+    .qinput-group input.error, .qinput-group select.error, .qinput-group textarea.error { border-color:#f87171; }
+    .field-error { font-size:12px; color:#e0384f; margin-top:4px; display:none; text-align:left; }
+    .field-error.show { display:block; }
+    .qrow { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+    .phone-prefix { display:flex; align-items:stretch; }
+    .phone-prefix span { background:var(--bg-light); border:1.5px solid var(--border); border-right:none;
+        padding:11px 13px; border-radius:9px 0 0 9px; font-size:16px; color:var(--muted); display:flex; align-items:center; white-space:nowrap; }
+    .phone-prefix input { border-radius:0 9px 9px 0; flex:1; }
+    .hp-field { position:absolute; left:-9999px; width:1px; height:1px; opacity:0; }
+    .next-btn { width:100%; padding:13px; background:var(--red); color:#fff; border:none;
+        border-radius:9px; font:600 16px 'Inter',sans-serif; cursor:pointer; margin-top:18px; transition:background .2s; }
+    .next-btn:hover { background:var(--red-dark); }
+    .next-btn:disabled { opacity:.5; cursor:not-allowed; }
+    .consent { font-size:11.5px; color:var(--muted); line-height:1.5; margin-top:14px; }
+    .consent a { color:var(--muted); text-decoration:underline; }
+    .back-btn { display:inline-flex; align-items:center; gap:4px; font-size:13px; color:var(--muted);
+        background:none; border:none; cursor:pointer; font-family:'Inter',sans-serif; padding:0; margin-top:12px; }
+    .back-btn:hover { color:var(--text); }
+
+    /* DISQUALIFIER */
+    .disqualified-card { text-align:center; padding:10px 4px; }
+    .disqualified-icon { width:48px; height:48px; border-radius:12px; background:rgba(230,34,68,0.06);
+        display:flex; align-items:center; justify-content:center; margin:0 auto 16px; }
+    .disqualified-icon svg { stroke:var(--red); stroke-width:1.8; }
+    .disqualified-card h3 { font-size:20px; font-weight:700; margin-bottom:8px; }
+    .disqualified-card p { font-size:14px; color:var(--muted); line-height:1.6; margin-bottom:20px; }
+    .btn-outline { display:inline-flex; align-items:center; gap:6px; background:var(--ink); color:#fff;
+        border:none; padding:11px 22px; border-radius:8px; font:500 14px 'Inter',sans-serif;
+        cursor:pointer; text-decoration:none; transition:background .2s; margin:4px; }
+    .btn-outline:hover { background:#2a2b30; }
+    .btn-outline.secondary { background:transparent; border:1.5px solid var(--border); color:var(--text); }
+    .btn-outline.secondary:hover { background:var(--bg-light); }
+
+    .ty-loading { text-align:center; padding:10px; }
+    .ty-loading p { color:var(--muted); }
+
+    /* TRUST BAR */
+    .trust-bar { border-top:1px solid var(--border); border-bottom:1px solid var(--border);
+        padding:16px 48px; display:flex; justify-content:center; gap:40px; font-size:14px;
+        font-weight:500; color:var(--text); flex-wrap:wrap; background:var(--white); }
+    .trust-bar span { display:inline-flex; align-items:center; gap:8px; }
+    .trust-bar svg { stroke:var(--red); flex-shrink:0; }
+
+    /* SECTIONS */
+    .section { padding:72px 48px; max-width:1160px; margin:0 auto; }
+    .section-sm { padding:52px 48px; max-width:1160px; margin:0 auto; }
+    .eyebrow { font-size:12px; font-weight:700; text-transform:uppercase; letter-spacing:1px; color:var(--red); margin-bottom:10px; }
+    .s-title { font-size:28px; font-weight:800; color:var(--text); margin-bottom:12px; line-height:1.2; letter-spacing:-0.01em; }
+    .s-sub { font-size:16px; color:var(--muted); line-height:1.7; max-width:600px; }
+    .offer-grid { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-top:32px; }
+    @media(max-width:768px){ .offer-grid { grid-template-columns:repeat(2,1fr); } }
+    @media(max-width:480px){ .offer-grid { grid-template-columns:1fr; } }
+    .offer-card { background:var(--white); border:1px solid var(--border); border-radius:16px;
+        padding:28px 24px; text-align:center; transition:all .2s; }
+    .offer-card:hover { border-color:var(--red); box-shadow:var(--shadow-md); transform:translateY(-2px); }
+    .offer-icon { width:56px; height:56px; border-radius:14px; background:rgba(230,34,68,0.05);
+        display:flex; align-items:center; justify-content:center; margin:0 auto 14px; }
+    .offer-icon svg { stroke:var(--red); stroke-width:1.5; }
+    .offer-card h3 { font-size:16px; font-weight:700; margin-bottom:4px; }
+    .offer-card p { font-size:13px; color:var(--muted); line-height:1.5; }
+
+    .brands-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:12px; margin-top:28px; }
+    @media(max-width:900px){ .brands-grid { grid-template-columns:repeat(3,1fr); } }
+    @media(max-width:600px){ .brands-grid { grid-template-columns:repeat(2,1fr); } }
+    .brand-chip { background:var(--white); border:1px solid var(--border); border-radius:12px;
+        padding:18px 14px; text-align:center; transition:all .2s; cursor:default; }
+    .brand-chip:hover { border-color:var(--red); background:rgba(230,34,68,0.02); }
+    .brand-chip h4 { font-size:14px; font-weight:700; margin-bottom:4px; }
+    .brand-chip p { font-size:11px; color:var(--muted); line-height:1.4; }
+
+    .industries-grid { display:flex; flex-wrap:wrap; gap:10px; margin-top:24px; }
+    .industry-tag { background:var(--bg-light); border:1px solid var(--border); border-radius:100px;
+        padding:8px 18px; font-size:13px; font-weight:500; color:var(--text); white-space:nowrap; }
+
+    .stats-row { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-top:32px; }
+    @media(max-width:768px){ .stats-row { grid-template-columns:1fr 1fr; } }
+    .stat-box { background:var(--surface-dark); border-radius:16px; padding:24px 22px; text-align:center; }
+    .stat-box .num { font-size:28px; font-weight:800; color:#fff; line-height:1.1; }
+    .stat-box .num em { color:var(--red); font-style:normal; }
+    .stat-box .lbl { font-size:13px; color:rgba(255,255,255,0.6); margin-top:4px; }
+
+    .testimonial-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:28px; }
+    @media(max-width:768px){ .testimonial-grid { grid-template-columns:1fr; } }
+    .testimonial-card { background:var(--white); border:1px solid var(--border); border-radius:16px; padding:24px; }
+    .testimonial-card blockquote { font-size:14px; color:var(--text); line-height:1.6; margin-bottom:12px; }
+    .testimonial-card cite { font-size:13px; color:var(--muted); font-style:normal; }
+
+    .cta-banner { background:var(--surface-dark); padding:24px 48px; text-align:center; font-size:15px; color:#fff; }
+    .cta-banner a { color:var(--red); font-weight:600; text-decoration:underline; }
+
+    footer { background:var(--red); padding:28px 48px; display:flex;
+        justify-content:space-between; align-items:center; font-size:13px; color:rgba(255,255,255,0.85); }
+    footer img { height:30px; display:block; }
+    footer a { color:rgba(255,255,255,0.85); text-decoration:none; margin-left:16px; }
+    footer a:hover { text-decoration:underline; }
+
+    @media(max-width:900px){ nav { padding:0 20px; } .nav-links { display:none; } .hamburger { display:flex; } }
+    @media(max-width:768px){
+        .hero-wrap { padding:36px 20px 0; min-height:auto; }
+        .hero-inner { grid-template-columns:1fr; gap:20px; padding-bottom:32px; }
+        .hero-left { order:1; text-align:center; max-width:100%; }
+        .hero-left .hero-trust { justify-content:center; }
+        .quiz-card { order:2; justify-self:center; max-width:100%; }
+        .hero-badge { margin-bottom:12px; font-size:10.5px; padding:3px 9px; }
+        .hero-title { font-size:28px; margin-bottom:10px; }
+        .hero-sub { font-size:14px; margin-bottom:18px; }
+        .hero-trust { gap:6px 10px; }
+        .hero-trust span { font-size:11px; }
+        .section, .section-sm { padding:52px 20px; }
+        .trust-bar { padding:14px 16px; gap:14px; justify-content:center; }
+        footer { padding:22px 20px; flex-direction:column; gap:12px; text-align:center; }
+        .qrow { grid-template-columns:1fr; }
+        .opts.g2 { grid-template-columns:1fr; }
+    }
+    @media(max-width:480px){
+        .nav-cta { display:none; }
+        .hero-title { font-size:24px; }
+        .car-grid { grid-template-columns:1fr 1fr; } /* keep 2 columns on small */
+        .brands-grid { grid-template-columns:repeat(2,1fr); }
+        .stats-row { grid-template-columns:1fr; }
+    }
+    @media (prefers-reduced-motion: reduce){ *{animation:none !important; transition:none !important; scroll-behavior:auto !important;} }
+</style>
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-EQUIPMENTCFAO" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<nav>
+    <a href="/" class="brand">
+        <img src="cropped-logo_cfao_equipment_color.png" alt="CFAO Equipment">
+    </a>
+    <ul class="nav-links">
+        <li><a href="#equipment">Equipment</a></li>
+        <li><a href="#brands">Brands</a></li>
+        <li><a href="#industries">Industries</a></li>
+        <li><a href="#why">Why CFAO</a></li>
+    </ul>
+    <a href="#quiz-area" class="nav-cta">Make an Enquiry</a>
+    <button class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+    <a href="#equipment">Equipment</a>
+    <a href="#brands">Brands</a>
+    <a href="#industries">Industries</a>
+    <a href="#why">Why CFAO</a>
+    <a href="#quiz-area" class="mob-cta">Make an Enquiry</a>
+</div>
+
+<!-- HERO + QUIZ -->
+<div class="hero-wrap" id="quiz-area">
+    <div class="hero-bg"></div>
+    <div class="hero-inner">
+        <div class="hero-left">
+            <div class="hero-badge"><b></b> Official Distributor · Fuso · King Long · Sino · TMH · Techking</div>
+            <h1 class="hero-title">Heavy‑duty equipment, light on stress.</h1>
+            <p class="hero-sub">From trucks to forklifts to tyres — tell us what you’re interested in and our team will point you in the right direction.</p>
+            <div class="hero-trust">
+                <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Official distributor</span>
+                <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Backed by CFAO Group</span>
+                <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Africa’s largest network</span>
+                <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>120+ years in Nigeria</span>
+                <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Sales · Rental · Maintenance · Financing</span>
+            </div>
+        </div>
+
+        <!-- QUIZ CARD -->
+        <div class="quiz-card" id="quiz-card">
+            <div class="quiz-progress" id="quiz-progress">
+                <div class="quiz-progress-bar"><div class="quiz-progress-fill" id="qpfill" style="width:20%;"></div></div>
+                <span class="quiz-progress-label" id="qplabel">1/5</span>
+            </div>
+
+            <!-- SCREEN 1: Product Line -->
+            <div class="quiz-step active" id="screen-1">
+                <div class="step-title">What are you interested in?</div>
+                <div class="car-grid">
+                    <button class="car-opt" onclick="selectProduct(this,'fuso'); goTo('screen-2')">
+                        <span class="car-icon"><svg viewBox="0 0 24 24"><path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5"/></svg></span>
+                        <span class="car-cat">Fuso</span><span class="car-models">Light‑duty trucks</span>
+                        <span class="car-check"></span>
+                    </button>
+                    <button class="car-opt" onclick="selectProduct(this,'king-long'); goTo('screen-2')">
+                        <span class="car-icon"><svg viewBox="0 0 24 24"><path d="M4 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M4 17h-2v-11a1 1 0 0 1 1 -1h14a5 7 0 0 1 5 7v5h-2m-4 0h-8"/><path d="M16 5l1.5 7l4.5 0"/><path d="M2 10l15 0"/><path d="M7 5l0 5"/><path d="M12 5l0 5"/></svg></span>
+                        <span class="car-cat">King Long</span><span class="car-models">Buses</span>
+                        <span class="car-check"></span>
+                    </button>
+                    <button class="car-opt" onclick="selectProduct(this,'sino'); goTo('screen-2')">
+                        <span class="car-icon"><svg viewBox="0 0 24 24"><path d="M4 15l4 -9h8l4 9"/><path d="M4 15h16"/><path d="M8 15l2 4h4l2 -4"/><path d="M6 9h12"/><path d="M12 6l2 -3h-4l2 3"/></svg></span>
+                        <span class="car-cat">Sino</span><span class="car-models">Construction machinery</span>
+                        <span class="car-check"></span>
+                    </button>
+                    <button class="car-opt" onclick="selectProduct(this,'tmh'); goTo('screen-2')">
+                        <span class="car-icon"><svg viewBox="0 0 24 24"><path d="M5 9h14v8h-14z"/><path d="M5 13h14"/><path d="M12 9v8"/><path d="M7 9l-2 4l2 4"/><path d="M17 9l2 4l-2 4"/><path d="M12 17v4"/><path d="M5 21h14"/></svg></span>
+                        <span class="car-cat">TMH</span><span class="car-models">Forklifts</span>
+                        <span class="car-check"></span>
+                    </button>
+                    <button class="car-opt" onclick="selectProduct(this,'techking'); goTo('screen-2')">
+                        <span class="car-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4"/><path d="M12 3v5m0 8v5M3 12h5m8 0h5"/></svg></span>
+                        <span class="car-cat">Techking</span><span class="car-models">Truck tyres</span>
+                        <span class="car-check"></span>
+                    </button>
+                    <button class="car-opt" onclick="selectProduct(this,'general'); goTo('screen-2')">
+                        <span class="car-icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8h.01M12 12v.01M12 16v.01"/></svg></span>
+                        <span class="car-cat">Not sure / Multiple</span><span class="car-models">We’ll help you decide</span>
+                        <span class="car-check"></span>
+                    </button>
+                </div>
+                <button class="soft-link" onclick="goTo('screen-disqualifier')">Something else? Click here</button>
+            </div>
+
+            <!-- SCREEN 2: Role -->
+            <div class="quiz-step" id="screen-2">
+                <div class="step-title">What’s your role?</div>
+                <div class="opts" id="role-options"></div>
+                <button class="back-btn" onclick="goTo('screen-1')">&larr; Back</button>
+            </div>
+
+            <!-- SCREEN 3: Sector -->
+            <div class="quiz-step" id="screen-3">
+                <div class="step-title">Which sector is your business in?</div>
+                <div class="opts" id="sector-options"></div>
+                <button class="back-btn" onclick="goTo('screen-2')">&larr; Back</button>
+            </div>
+
+            <!-- SCREEN 4: Nature of Request -->
+            <div class="quiz-step" id="screen-4">
+                <div class="step-title">What best describes your request?</div>
+                <div class="opts" id="nature-options"></div>
+                <button class="back-btn" onclick="goTo(requiresSector() ? 'screen-3' : 'screen-2')">&larr; Back</button>
+            </div>
+
+            <!-- SCREEN 5: Contact Capture -->
+            <div class="quiz-step" id="screen-5">
+                <div class="step-title">Where should we send the information?</div>
+                <div class="step-sub">Tell us a bit about yourself and we’ll get back to you shortly.</div>
+                <input type="text" class="hp-field" id="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+                <div class="qrow">
+                    <div class="qinput-group"><label>First name *</label><input type="text" id="fname" placeholder="Chinedu" autocomplete="given-name" oninput="clearError(this)"><div class="field-error" id="err-fname">Required</div></div>
+                    <div class="qinput-group"><label>Last name</label><input type="text" id="lname" placeholder="Adekunle" autocomplete="family-name"></div>
+                </div>
+                <div class="qrow">
+                    <div class="qinput-group"><label>Work email *</label><input type="email" id="email" placeholder="chinedu.ade@company.com" autocomplete="email" oninput="clearError(this)"><div class="field-error" id="err-email">Valid email required</div></div>
+                    <div class="qinput-group"><label>Phone / WhatsApp *</label><div class="phone-prefix"><span>+234</span><input type="tel" id="phone" placeholder="801 234 5678" inputmode="numeric" autocomplete="tel" oninput="clearError(this)"></div><div class="field-error" id="err-phone">Valid phone number required</div></div>
+                </div>
+                <div class="qinput-group"><label>Company name *</label><input type="text" id="company" placeholder="Company Ltd" oninput="clearError(this)"><div class="field-error" id="err-company">Required</div></div>
+                <div class="qrow">
+                    <div class="qinput-group"><label>City/State *</label>
+                        <select id="cityState" onchange="clearError(this)"><option value="">Select…</option><option>Lagos</option><option>Abuja</option><option>Rivers</option><option>Oyo</option><option>Kano</option><option>Other</option></select>
+                        <div class="field-error" id="err-cityState">Please select</div>
+                    </div>
+                    <div class="qinput-group"><label>Message / quantity (optional)</label><input type="text" id="note" placeholder="Tell us more about what you need"></div>
+                </div>
+                <button class="next-btn" id="submit-btn" onclick="submitForm()">Make an Enquiry</button>
+                <p class="consent">By submitting, you agree to be contacted by Equipment by CFAO. <a href="#">Privacy Policy</a></p>
+                <button class="back-btn" onclick="goTo('screen-4')">&larr; Back</button>
+            </div>
+
+            <!-- DISQUALIFIER: Something else -->
+            <div class="quiz-step" id="screen-disqualifier">
+                <div class="disqualified-card">
+                    <div class="disqualified-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><line x1="12" y1="8" x2="12" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="12" y1="16" x2="12.01" y2="16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+                    <h3>We specialise in Fuso, King Long, Sino, TMH and Techking.</h3>
+                    <p>If you’re looking for something outside these brands, we may still be able to help. Would you like to continue as a general enquiry?</p>
+                    <button class="btn-outline" onclick="selectProduct(null,'general'); goTo('screen-2')">Continue as general enquiry</button>
+                    <button class="btn-outline secondary" onclick="goTo('screen-1')">Go back</button>
+                </div>
+            </div>
+
+            <!-- DISQUALIFIER: Not interested -->
+            <div class="quiz-step" id="screen-disqualifier-nature">
+                <div class="disqualified-card">
+                    <div class="disqualified-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><line x1="12" y1="8" x2="12" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="12" y1="16" x2="12.01" y2="16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+                    <h3>No problem at all.</h3>
+                    <p>If your plans change, we’re here to help with Fuso, King Long, Sino, TMH and Techking. You can still explore our website or get in touch anytime.</p>
+                    <button class="btn-outline" onclick="goTo('screen-4')">Go back</button>
+                    <a href="https://www.cfaoequipment-nigeria.com/" class="btn-outline secondary" target="_blank" rel="noopener">Visit website</a>
+                </div>
+            </div>
+
+            <!-- LOADING -->
+            <div class="quiz-step" id="redirecting">
+                <div class="ty-loading"><p>Submitting your enquiry...</p><p style="font-size:13px;">You'll be redirected shortly.</p></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- TRUST BAR -->
+<div class="trust-bar">
+    <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Official distributor</span>
+    <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Lagos · Abuja · Port Harcourt</span>
+    <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Sales · Rental · Maintenance</span>
+    <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>Financing available</span>
+    <span><svg width="15" height="15" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>After‑sales & training</span>
+</div>
+
+<!-- WHAT WE OFFER -->
+<div class="section" id="equipment">
+    <div class="eyebrow">Our solutions</div>
+    <h2 class="s-title">One partner for all your equipment needs.</h2>
+    <div class="offer-grid">
+        <div class="offer-card">
+            <div class="offer-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M5 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M15 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0"/><path d="M5 17h-2v-6l2 -5h9l4 5h1a2 2 0 0 1 2 2v4h-2m-4 0h-6m-6 -6h15m-6 0v-5"/></svg></div>
+            <h3>Trucks & Buses</h3>
+            <p>Reliable transport solutions for moving people and goods across Africa. Fuso · King Long.</p>
+        </div>
+        <div class="offer-card">
+            <div class="offer-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M5 9h14v8h-14z"/><path d="M5 13h14"/><path d="M12 9v8"/><path d="M7 9l-2 4l2 4"/><path d="M17 9l2 4l-2 4"/></svg></div>
+            <h3>Handling</h3>
+            <p>High‑performance forklifts, stackers and pallet trucks for logistics, warehouses and ports. TMH.</p>
+        </div>
+        <div class="offer-card">
+            <div class="offer-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M4 15l4 -9h8l4 9"/><path d="M4 15h16"/><path d="M8 15l2 4h4l2 -4"/></svg></div>
+            <h3>Construction</h3>
+            <p>Durable, innovative machinery for the toughest worksites. Sino / Howo.</p>
+        </div>
+    </div>
+</div>
+
+<!-- BRANDS -->
+<div class="section" id="brands" style="background:var(--bg-light); max-width:100%; padding:72px 48px;">
+    <div style="max-width:1160px; margin:0 auto;">
+        <div class="eyebrow">Trusted brands</div>
+        <h2 class="s-title">World‑class equipment, official distributor.</h2>
+        <div class="brands-grid">
+            <div class="brand-chip"><h4>Fuso</h4><p>Light‑duty trucks</p></div>
+            <div class="brand-chip"><h4>King Long</h4><p>Buses</p></div>
+            <div class="brand-chip"><h4>Sino</h4><p>Construction machinery</p></div>
+            <div class="brand-chip"><h4>TMH</h4><p>Forklifts</p></div>
+            <div class="brand-chip"><h4>Techking</h4><p>Truck tyres</p></div>
+        </div>
+    </div>
+</div>
+
+<!-- INDUSTRIES -->
+<div class="section" id="industries">
+    <div class="eyebrow">Who we serve</div>
+    <h2 class="s-title">Trusted across industries.</h2>
+    <p class="s-sub">From construction and logistics to transport, power and agriculture — we equip teams that keep Nigeria moving.</p>
+    <div class="industries-grid">
+        <span class="industry-tag">Construction & Manufacturing</span>
+        <span class="industry-tag">Logistics & Distribution</span>
+        <span class="industry-tag">Transport & Fleet Operations</span>
+        <span class="industry-tag">Agriculture & Power</span>
+        <span class="industry-tag">Government & Public Sector</span>
+        <span class="industry-tag">Education & Healthcare</span>
+        <span class="industry-tag">Other</span>
+    </div>
+</div>
+
+<!-- WHY CFAO -->
+<div class="section" id="why" style="background:var(--ink); color:#fff; max-width:100%; padding:72px 48px;">
+    <div style="max-width:1160px; margin:0 auto;">
+        <div class="eyebrow" style="color:var(--red);">Why choose us</div>
+        <h2 class="s-title" style="color:#fff;">A 360° partner, not just a supplier.</h2>
+        <p class="s-sub" style="color:rgba(255,255,255,0.65);">With personalised services including advice, delivery, after‑sales and financing, we support your business at every stage.</p>
+        <div class="offer-grid" style="margin-top:32px;">
+            <div class="offer-card" style="background:var(--surface-dark); border-color:#3A3B3E;">
+                <div class="offer-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1.5"/></svg></div>
+                <h3 style="color:#fff;">Advice</h3>
+                <p style="color:rgba(255,255,255,0.55);">We help you choose the right equipment for your mission.</p>
+            </div>
+            <div class="offer-card" style="background:var(--surface-dark); border-color:#3A3B3E;">
+                <div class="offer-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <h3 style="color:#fff;">Delivery</h3>
+                <p style="color:rgba(255,255,255,0.55);">Efficient logistics to get your equipment where you need it.</p>
+            </div>
+            <div class="offer-card" style="background:var(--surface-dark); border-color:#3A3B3E;">
+                <div class="offer-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" stroke="currentColor" stroke-width="1.5"/></svg></div>
+                <h3 style="color:#fff;">After‑sales</h3>
+                <p style="color:rgba(255,255,255,0.55);">Maintenance, genuine parts, and manufacturer‑trained support.</p>
+            </div>
+            <div class="offer-card" style="background:var(--surface-dark); border-color:#3A3B3E;">
+                <div class="offer-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+                <h3 style="color:#fff;">Financing</h3>
+                <p style="color:rgba(255,255,255,0.55);">Flexible options to make the investment easier.</p>
+            </div>
+        </div>
+        <div class="stats-row">
+            <div class="stat-box"><div class="num">120<em>+</em></div><div class="lbl">Years in Nigeria</div></div>
+            <div class="stat-box"><div class="num">40<em>+</em></div><div class="lbl">African countries</div></div>
+            <div class="stat-box"><div class="num">200<em>+</em></div><div class="lbl">Skilled professionals</div></div>
+            <div class="stat-box"><div class="num">3</div><div class="lbl">Branches (Lagos · Abuja · PH)</div></div>
+        </div>
+    </div>
+</div>
+
+<!-- TESTIMONIALS -->
+<div class="section">
+    <div class="eyebrow">What our customers say</div>
+    <h2 class="s-title">Real businesses. Real results.</h2>
+    <div class="testimonial-grid">
+        <div class="testimonial-card">
+            <blockquote>“We run King Long buses in our school fleet. The team understood exactly what we needed.”</blockquote>
+            <cite>— Transport Manager, educational institution</cite>
+        </div>
+        <div class="testimonial-card">
+            <blockquote>“Our warehouse runs on TMH forklifts. Good support, genuine parts.”</blockquote>
+            <cite>— Operations Lead, distribution company</cite>
+        </div>
+    </div>
+</div>
+
+<!-- FINAL CTA -->
+<div class="cta-banner">
+    <span>Not sure where to start? That’s fine. <a href="#quiz-area">Make an enquiry</a></span>
+</div>
+
+<!-- FOOTER -->
+<footer>
+    <img src="logo_cfao_equipment_white.png" alt="CFAO Equipment" height="30">
+    <div>&copy; 2026 CFAO Equipment. All rights reserved. · A division of the CFAO Group</div>
+    <div>
+        <a href="#">Cookies policy</a>
+        <a href="#">Legal mentions</a>
+        <a href="#">Personal data</a>
+        <a href="#">Contact</a>
+    </div>
+</footer>
+
+<script>
+    window.dataLayer = window.dataLayer || [];
+    var GAS_URL = "https://script.google.com/macros/s/REPLACE_WITH_YOUR_GAS_URL/exec";
+    var THANKYOU_URL = '/thank-you/enquiry';
+
+    var utmParams = {};
+    (function(){
+        var p = new URLSearchParams(window.location.search);
+        ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'].forEach(function(k){ if(p.get(k)) utmParams[k]=p.get(k); });
+    })();
+
+    var vals = {}, currentStep = 'screen-1', submitFinished = false;
+
+    var rolesByProduct = {
+        'fuso': ['Fleet / Transport Management','Workshop / Maintenance','Procurement / Supply Chain','Managing Director / General Manager','Other'],
+        'king-long': ['Fleet / Transport Management','Procurement / Supply Chain','Administration','Managing Director / General Manager','Other'],
+        'sino': ['Procurement / Supply Chain','Maintenance / Operations','Managing Director / General Manager','Other'],
+        'tmh': ['Procurement / Supply Chain','Technical / Warehouse','Other'],
+        'techking': ['Procurement / Supply Chain','Administration','Other'],
+        'general': ['Procurement / Supply Chain','Operations / Maintenance','Managing Director / General Manager','Other']
+    };
+    var sectorOptions = [
+        'Construction & Manufacturing',
+        'Logistics & Distribution',
+        'Transport & Fleet Operations',
+        'Agriculture & Power',
+        'Government & Public Sector',
+        'Education & Healthcare',
+        'Other'
+    ];
+    var natureOptions = [
+        { label: 'I want to buy', value: 'buy' },
+        { label: 'Request a quote', value: 'quote' },
+        { label: 'Learn more', value: 'learn' },
+        { label: 'Not interested', value: 'not_interested' }
+    ];
+    var sectorRequiredFor = ['fuso','king-long','sino'];
+
+    function toggleMenu(){ document.getElementById('mobile-menu').classList.toggle('open'); }
+
+    function normalizePhone(raw){
+        if(!raw) return '';
+        var d = (''+raw).replace(/\D/g,'');
+        if(d.indexOf('234')===0) d = d.slice(3);
+        d = d.replace(/^0+/,'');
+        return d ? '+234'+d : '';
+    }
+    function isValidNGPhone(raw){ var n=normalizePhone(raw); return /^\+234\d{10}$/.test(n); }
+    function isValidEmail(e){ return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e); }
+
+    function requiresSector(){
+        return vals.productLine && sectorRequiredFor.indexOf(vals.productLine) !== -1;
+    }
+
+    function selectProduct(btn, product){
+        if(btn) {
+            var p = btn.closest('.car-grid');
+            if(p) p.querySelectorAll('.car-opt').forEach(function(b){ b.classList.remove('selected'); });
+            btn.classList.add('selected');
+        }
+        vals.productLine = product;
+        if(product && product !== 'general'){
+            window.dataLayer.push({ event:'product_selected', productLine: product });
+        }
+        populateRoleOptions(product || 'general');
+        populateNatureOptions();
+    }
+
+    function populateRoleOptions(product){
+        var options = rolesByProduct[product] || rolesByProduct.general;
+        var container = document.getElementById('role-options');
+        container.innerHTML = '';
+        options.forEach(function(role){
+            var btn = document.createElement('button');
+            btn.className = 'opt';
+            btn.setAttribute('type','button');
+            btn.innerHTML = '<span class="opt-text"><div class="opt-title">'+role+'</div></span><span class="opt-check"></span>';
+            btn.onclick = function(){
+                selectOption(this);
+                vals.role = role;
+                if(requiresSector()){
+                    goTo('screen-3');
+                } else {
+                    goTo('screen-4');
+                }
+            };
+            container.appendChild(btn);
+        });
+    }
+
+    function populateSectorOptions(){
+        var container = document.getElementById('sector-options');
+        container.innerHTML = '';
+        sectorOptions.forEach(function(sector){
+            var btn = document.createElement('button');
+            btn.className = 'opt';
+            btn.setAttribute('type','button');
+            btn.innerHTML = '<span class="opt-text"><div class="opt-title">'+sector+'</div></span><span class="opt-check"></span>';
+            btn.onclick = function(){
+                selectOption(this);
+                vals.sector = sector;
+                goTo('screen-4');
+            };
+            container.appendChild(btn);
+        });
+    }
+
+    function populateNatureOptions(){
+        var container = document.getElementById('nature-options');
+        container.innerHTML = '';
+        natureOptions.forEach(function(item){
+            var btn = document.createElement('button');
+            btn.className = 'opt';
+            btn.setAttribute('type','button');
+            btn.innerHTML = '<span class="opt-text"><div class="opt-title">'+item.label+'</div></span><span class="opt-check"></span>';
+            btn.onclick = function(){
+                selectOption(this);
+                vals.nature = item.value;
+                if(item.value === 'not_interested'){
+                    goTo('screen-disqualifier-nature');
+                } else {
+                    goTo('screen-5');
+                }
+            };
+            container.appendChild(btn);
+        });
+    }
+
+    function selectOption(btn){
+        var p = btn.closest('.opts');
+        if(p) p.querySelectorAll('.opt').forEach(function(b){ b.classList.remove('selected'); });
+        btn.classList.add('selected');
+    }
+
+    function goTo(stepId){
+        document.getElementById(currentStep).classList.remove('active');
+        document.getElementById(stepId).classList.add('active');
+        currentStep = stepId;
+        updateProgress();
+        var qc = document.getElementById('quiz-card');
+        if (stepId === 'screen-disqualifier' || stepId === 'screen-disqualifier-nature' || stepId === 'redirecting') {
+            qc.classList.remove('step-active');
+        } else {
+            qc.classList.add('step-active');
+        }
+        if(stepId === 'screen-2') {
+            populateRoleOptions(vals.productLine || 'general');
+        }
+        if(stepId === 'screen-3') {
+            populateSectorOptions();
+        }
+        if(stepId === 'screen-4') {
+            populateNatureOptions();
+        }
+        if(stepId === 'screen-1'){
+            vals = {};
+            document.querySelectorAll('.opt.selected, .car-opt.selected').forEach(function(b){ b.classList.remove('selected'); });
+            qc.classList.remove('step-active');
+        }
+        if(stepId === 'screen-disqualifier'){
+            window.dataLayer.push({ event:'disqualified', reason:'something_else' });
+        }
+        if(stepId === 'screen-disqualifier-nature'){
+            window.dataLayer.push({ event:'disqualified', reason:'not_interested' });
+        }
+        if(stepId !== 'screen-1' && stepId !== 'screen-disqualifier' && stepId !== 'screen-disqualifier-nature' && stepId !== 'redirecting'){
+            var stepNum = getStepNumber();
+            window.dataLayer.push({ event:'quiz_step', step: stepNum, question: getQuestionForCurrent(stepId), answer: getAnswerForCurrent(stepId) });
+        }
+    }
+
+    function getStepNumber(){
+        if(currentStep === 'screen-1') return 1;
+        if(currentStep === 'screen-2') return 2;
+        if(currentStep === 'screen-3') return requiresSector() ? 3 : 2;
+        if(currentStep === 'screen-4') return requiresSector() ? 4 : 3;
+        if(currentStep === 'screen-5') return requiresSector() ? 5 : 4;
+        return 1;
+    }
+    function getTotalSteps(){ return requiresSector() ? 5 : 4; }
+    function updateProgress(){
+        var el = document.getElementById('quiz-progress');
+        if(currentStep === 'screen-disqualifier' || currentStep === 'screen-disqualifier-nature' || currentStep === 'redirecting'){
+            el.style.display='none'; return;
+        }
+        el.style.display='flex';
+        var stepNum = getStepNumber();
+        var total = getTotalSteps();
+        var pct = Math.round((stepNum/total)*100);
+        document.getElementById('qpfill').style.width = pct+'%';
+        document.getElementById('qplabel').textContent = stepNum+'/'+total;
+    }
+    function getQuestionForCurrent(stepId){
+        if(stepId === 'screen-1') return 'What are you interested in?';
+        if(stepId === 'screen-2') return 'What’s your role?';
+        if(stepId === 'screen-3') return 'Which sector is your business in?';
+        if(stepId === 'screen-4') return 'What best describes your request?';
+        if(stepId === 'screen-5') return 'Where should we send the information?';
+        return '';
+    }
+    function getAnswerForCurrent(stepId){
+        if(stepId === 'screen-1') return vals.productLine;
+        if(stepId === 'screen-2') return vals.role;
+        if(stepId === 'screen-3') return vals.sector;
+        if(stepId === 'screen-4') return vals.nature;
+        return '';
+    }
+
+    function clearError(input){
+        if(!input) return;
+        input.classList.remove('error');
+        var e = document.getElementById('err-'+input.id);
+        if(e) e.classList.remove('show');
+    }
+    function showError(id, msgId){ var el=document.getElementById(id); if(el) el.classList.add('error'); var e=document.getElementById(msgId); if(e) e.classList.add('show'); }
+
+    function submitForm(){
+        if(document.getElementById('website').value){ return; }
+        var fname = document.getElementById('fname').value.trim();
+        var lname = document.getElementById('lname').value.trim();
+        var email = document.getElementById('email').value.trim();
+        var phone = document.getElementById('phone').value.trim();
+        var company = document.getElementById('company').value.trim();
+        var cityState = document.getElementById('cityState').value;
+        var note = document.getElementById('note').value.trim();
+
+        var valid = true;
+        if(!fname){ showError('fname','err-fname'); valid=false; }
+        if(!email || !isValidEmail(email)){ showError('email','err-email'); valid=false; }
+        if(!phone || !isValidNGPhone(phone)){ showError('phone','err-phone'); valid=false; }
+        if(!company){ showError('company','err-company'); valid=false; }
+        if(!cityState){ showError('cityState','err-cityState'); valid=false; }
+        if(!valid) return;
+
+        var payload = {
+            type: 'equipment',
+            productLine: vals.productLine || 'general',
+            role: vals.role || '',
+            sector: vals.sector || '',
+            nature: vals.nature || '',
+            company: company,
+            firstName: fname,
+            lastName: lname,
+            email: email,
+            phone: normalizePhone(phone),
+            cityState: cityState,
+            note: note,
+            utm_source: utmParams.utm_source || '',
+            utm_medium: utmParams.utm_medium || '',
+            utm_campaign: utmParams.utm_campaign || '',
+            utm_content: utmParams.utm_content || '',
+            utm_term: utmParams.utm_term || '',
+            submittedAt: new Date().toISOString()
+        };
+
+        var btn = document.getElementById('submit-btn');
+        btn.disabled = true; btn.textContent = 'Submitting...';
+        goTo('redirecting');
+        window.dataLayer.push({ event:'form_submit', productLine: vals.productLine, role: vals.role, sector: vals.sector, nature: vals.nature, email: email });
+
+        var redirectUrl = THANKYOU_URL + '?product=' + encodeURIComponent(vals.productLine || 'general') + '&firstName=' + encodeURIComponent(fname);
+        function go(){ if(submitFinished) return; submitFinished = true; window.location.href = redirectUrl; }
+        var failsafe = setTimeout(go, 8000);
+
+        fetch(GAS_URL, { method:'POST', body:JSON.stringify(payload), headers:{'Content-Type':'text/plain'} })
+            .then(function(r){ return r.ok ? r.json() : Promise.reject('HTTP '+r.status); })
+            .then(function(data){ clearTimeout(failsafe); window.dataLayer.push({event:'submit_success', type:'equipment'}); go(); })
+            .catch(function(err){
+                clearTimeout(failsafe);
+                if(submitFinished) return;
+                console.error('Submit failed:', err);
+                window.dataLayer.push({event:'submit_error', error:err.toString()});
+                btn.disabled=false; btn.textContent='Make an Enquiry';
+                goTo('screen-5');
+                alert('Sorry, something went wrong. Please try again.');
+            });
+    }
+
+    document.addEventListener('keydown', function(e){
+        if(e.key==='Enter'){ var a=document.querySelector('.quiz-step.active'); if(!a) return; var b=a.querySelector('.next-btn'); if(b && !b.disabled){ e.preventDefault(); b.click(); } }
+    });
+
+    document.addEventListener('DOMContentLoaded', function(){
+        populateRoleOptions('general');
+        populateNatureOptions();
+        updateProgress();
+    });
+</script>
+</body>
+</html>
